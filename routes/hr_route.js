@@ -14,3 +14,4 @@ router.delete("/delete-emp",(req,res)=>{
 })
 // localhost:3000/api/hr/assign-task =>POST
 // localhost:3000/api/hr/viewtasks =>GET
+module.exports=router;
