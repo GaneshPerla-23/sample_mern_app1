@@ -8,7 +8,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import {Routes,Route} from 'react-router-dom'
-import Services from './pages/Services';
+
 
 function App() {
 
