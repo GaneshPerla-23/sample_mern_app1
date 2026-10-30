@@ -8,7 +8,11 @@ import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 import {Routes,Route} from 'react-router-dom'
+<<<<<<< HEAD
 import Services from './pages/Services';
+=======
+
+>>>>>>> c2a2647df2690d1a443ef03f99121c8a7a7036ab
 
 function App() {
 
