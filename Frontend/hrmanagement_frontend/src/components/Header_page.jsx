@@ -1,14 +1,20 @@
-import {Link} from 'react-router-dom'
+
+import { Link } from 'react-router-dom'
 import './header.css'
+
 function Header_page() {
   return (
-    <div className="header">
-      <Link to="/">home</Link>
-      <Link to="/about">about</Link>
-      <Link to="/contact">contact</Link>
-      <Link to="/Services">/Services</Link>
+    <nav className="header">
+      <div className="logo">HR Management</div>
 
-    </div>
+      <div className="nav-links">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+      </div>
+    </nav>
   )
 }
 

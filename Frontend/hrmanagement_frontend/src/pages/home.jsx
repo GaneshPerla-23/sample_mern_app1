@@ -12,18 +12,15 @@ function Home() {
   let posters = [
     {
       image: img1,
-      title: "Welcome",
-      description: "Welcome to the HR Management System",
+     
     },
     {
       image: img2,
-      title: "Our Services",
-      description: "Manage employees efficiently",
+      
     },
     {
       image: img3,
-      title: "HR Management",
-      description: "Organize your workplace",
+    
     },
   ];
 
