@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+function Home() {
+  return (
+    <div>
+      <h1 style={{ color: "blue" }}>Home Page Called</h1>
+=======
 import { useState, useEffect } from "react";
 
 
@@ -108,6 +114,7 @@ function Home() {
         </div>
 
       </div>
+>>>>>>> c2a2647df2690d1a443ef03f99121c8a7a7036ab
     </div>
   );
 }
